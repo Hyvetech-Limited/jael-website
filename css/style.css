@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  /* overflow: hidden; */
+}
+a {
+  text-decoration: none;
+}
+.top_navigation .jauto_logo {
+  width: 220px;
+}
+
+.top_navigation .hamburgermobile {
+  width: 60px;
+}
+
+.whocanjoin-section .whocanjoincontent {
+  background: #098ece;
+  padding: 140px 30px 140px 140px;
+}
+
+.whocanjoin-section .outline-text{
+  max-width: 300px;
+}
+
+.whocanjoin-section .whocanjoinimg {
+  object-fit: cover;
+  background: #098ece;
+}
+
+.whocanjoin-section .whocanjoinimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.transforming-section {
+  padding: 100px 0;
+  background: #f1f3f5 url("img/partners/tire printtt.png") no-repeat center;
+}
+
+.transforming-section img:not(.transforming-section img:last-of-type) {
+  margin-right: 70px;
+}
+
+.transforming-section img {
+  height: 60px;
+}
+
+.why-jael-section {
+  padding: 100px 0;
+}
+
+.why-jael-section .whyjael-card-item {
+  width: 280px;
+  height: 320px;
+
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  /* box-sizing: border-box; */
+  border-radius: 30px;
+}
+
+.whyjael-card-item .description {
+  color: #828282;
+  font-size: 14px;
+}
+
+.whyjael-card-item .title {
+  font-weight: 600;
+}
+
+.whyjael-card-item img {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  top: 10px;
+  left: -6px;
+
+}
+
+.jael-blueheading {
+  color: #098ece;
+}
