@@ -3,6 +3,7 @@ body {
   font-size: 16px;
   /* overflow: hidden; */
 }
+
 a {
   text-decoration: none;
 }
@@ -80,4 +81,42 @@ a {
 
 .jael-blueheading {
   color: #098ece;
+}
+
+
+.howitworks-section {
+  padding: 100px 0;
+  background: #FBFBFB;
+  /* background: #f1f3f5 url("img/partners/tire printtt.png") no-repeat center; */
+}
+
+.howitworks-section .howitworks-card-item {
+  width: 280px;
+  height: 320px;
+
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  /* box-sizing: border-box; */
+  border-radius: 30px;
+}
+
+.howitworks-card-item .description {
+  color: #828282;
+  font-size: 14px;
+}
+
+.howitworks-section img {
+  height: 300px;
+}
+
+
+.certifications-section {
+  padding: 100px 0;
+  /* background: #FBFBFB; */
+  /* background: #f1f3f5 url("img/partners/tire printtt.png") no-repeat center; */
+}
+
+.certifications-section img {
+  width: 80%;
+  height: auto;
 }
