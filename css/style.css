@@ -130,7 +130,7 @@ ul {
 }
 
 .whocanjoin-section .whocanjoincontent {
-  background: #098ece;
+  background: #098ece url('../img/footer-tireprint.png') no-repeat bottom left;
   padding: 5em 1.5em 0 4em;
 }
 
@@ -248,9 +248,9 @@ video {
 
 .get-jaelapp-section {
   padding: 6em 0 6em 8em;
-  background: #098ece;
+  background: #098ece url('../img/tyre 1.png') no-repeat center;
+
   border-radius: 30px;
-  /* margin-top: 80px; */
   position: relative;
 }
 
@@ -269,7 +269,7 @@ video {
 }
 
 .jael-footer {
-  margin-top: 250px;
+  margin-top: 180px;
   background: #098ece url('../img/footer-tireprint.png') no-repeat fixed bottom right;
   border-radius: 30px 30px 0 0;
 }
