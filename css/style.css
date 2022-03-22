@@ -12,9 +12,15 @@ ul {
   list-style: none;
 }
 
-ul li:not(ul li:last-of-type) {
+.first-navigation ul a{
+  color: rgb(37, 37, 37);
+  /* padding-bottom: 10px; */
+}
+
+.first-navigation ul a:not(.first-navigationul li:last-of-type) {
   margin-right: 20px;
 }
+
 .top-cta-btns-wrapper {
   margin-left: 20px;
 }
@@ -241,10 +247,10 @@ video {
 }
 
 .get-jaelapp-section {
-  padding: 8em 0 8em 12em;
+  padding: 6em 0 6em 8em;
   background: #098ece;
-  border-radius: 20px;
-  margin-top: 80px;
+  border-radius: 30px;
+  /* margin-top: 80px; */
   position: relative;
 }
 
@@ -258,6 +264,16 @@ video {
 
 .mobile-phone-view {
   position: absolute;
-  top: -80px;
-  right: 14em;
+  top: -90px;
+  right: 12em;
+}
+
+.jael-footer {
+  margin-top: 250px;
+  background: #098ece url('../img/footer-tireprint.png') no-repeat fixed bottom right;
+  border-radius: 30px 30px 0 0;
+}
+
+.jael-footer ul li{
+  margin: 25px;
 }
