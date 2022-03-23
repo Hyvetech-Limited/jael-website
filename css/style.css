@@ -204,6 +204,10 @@ ul {
   color: #098ece;
 }
 
+.why-jael-section .whyjael-card-item .rounded-circle{
+  background-color: #e6eef1;
+}
+
 .whyjael-card-item .description {
   color: #828282;
   font-size: 14px;
@@ -213,13 +217,33 @@ ul {
   font-weight: 600;
 }
 
-.whyjael-card-item img {
+.whyjael-card-item svg {
   position: absolute;
   width: 61px;
   height: 61px;
   top: 10px;
   left: -6px;
 }
+
+.whyjael-card-item:hover {
+  color: white;
+  background: #098ECE;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .2s;
+}
+
+.whyjael-card-item:hover p {
+  color: white;
+}
+
+.whyjael-card-item:hover .rounded-circle{
+  background: #41aadb;
+ }
+
+.whyjael-card-item:hover path{
+  fill: white ;
+ }
 
 .jael-blueheading {
   color: #098ece;
