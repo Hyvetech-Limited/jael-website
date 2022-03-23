@@ -147,8 +147,10 @@ ul {
 }
 
 .whocanjoin-section .whocanjoincontent {
-  background: #098ece url('../img/footer-tireprint.png') no-repeat bottom left;
+  background: url('../img/footer-tireprint.png') no-repeat bottom left, url('../img/gear-print.png') no-repeat 30em 0em;
+  background-color: #098ece ;
   padding: 5em 1.5em 0 4em;
+  
 }
 
 .whocanjoin-section .outline-text {
@@ -265,7 +267,10 @@ video {
 
 .get-jaelapp-section {
   padding: 6em 0 6em 8em;
-  background: #098ece url('../img/tyre 1.png') no-repeat center;
+
+  background: url('../img/tyre 1.png') no-repeat center top, url('../img/gear-print.png') no-repeat -2em -13em;
+  background-color: #098ece ;
+  
 
   border-radius: 30px;
   position: relative;
