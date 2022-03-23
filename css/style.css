@@ -75,13 +75,30 @@ ul {
   color: #098ece;
 }
 
+
+
 .jaelcarouselwrapper .left__content .titlecaption::before {
   content: "";
-  background-image: url("/img/assessment.svg");
+  background-image: url("../img/dots.svg");
+  background-size: 100px 100px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: -90px;
+  top: -30px;
+}
+
+.jaelcarouselwrapper .left__content .titlecaption::after {
+  content: "";
+  background-image: url("../img/dots-horizontal.svg");
   background-size: 100px 100px;
   display: block;
   width: 100px;
   height: 100px;
+  position: absolute;
+  right: 200px;
+  bottom: -90px;
 }
 
 .jaelcarouselwrapper .right__content {
@@ -150,7 +167,7 @@ ul {
 
 .transforming-section {
   padding: 100px 0;
-  background: #f1f3f5 url("img/partners/tire printtt.png") no-repeat center;
+  background: #f1f3f5 url("../img/partners/tire printtt.png") no-repeat fixed top right;
 }
 
 .transforming-section img:not(.transforming-section img:last-of-type) {
@@ -275,5 +292,16 @@ video {
 }
 
 .jael-footer ul li{
-  margin: 25px;
+  margin: 15px;
+  margin-bottom: 0;
+}
+
+
+
+
+.call-toaction-join-anchor{
+  background: #098ece;
+  border-radius: 12px;
+  max-width: 160px;
+  padding: 5px;
 }
