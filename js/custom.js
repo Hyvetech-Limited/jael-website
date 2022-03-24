@@ -2,9 +2,21 @@
 
 $(document).ready(function () {
   $(".jael-slick-carousel").slick({
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 2500,
+    arrows: false,
   });
+
+  $(".next-text-slide-btn").click(function () {
+    $(".jael-slick-carousel").slick("slickNext");
+  });
+
+  $(".prev-text-slide-btn").click(function () {
+    $(".jael-slick-carousel").slick("slickPrev");
+  });
+  
+  
+  
 });

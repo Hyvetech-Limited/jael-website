@@ -50,6 +50,7 @@ ul {
   flex: 1;
   line-height: 1.8em;
   padding-left: 80px;
+  overflow: hidden;
 }
 
 .jaelcarouselwrapper .left__content .becomepartner-callto-action input {
@@ -315,7 +316,7 @@ video {
 }
 
 .jael-footer {
-  margin-top: 180px;
+  margin-top: 100px;
   background: #098ece url('../img/footer-tireprint.png') no-repeat fixed bottom right;
   border-radius: 30px 30px 0 0;
 }
@@ -334,3 +335,7 @@ video {
   max-width: 160px;
   padding: 5px;
 }
+/* 
+#partner-success-message {
+  visibility: hidden;
+} */
