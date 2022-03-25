@@ -11,6 +11,9 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -72,7 +75,7 @@
           <li>Home</li>
         </a>
         <a href="fortechnicians.html">
-          <li>For Engineers</li>
+          <li>For Technicians</li>
         </a>
         <a href="#" style="color:red; border-bottom: 1px solid #2ea9e2;">
           <li>For Businesses</li>
@@ -83,7 +86,10 @@
       </ul>
 
       <div class="d-flex top-cta-btns-wrapper">
-        <button type="button" class="join-thenetwork-btn text-white">Join the Network</button>
+        <button type="button" class="join-thenetwork-btn text-white" data-bs-toggle="tooltip"
+          data-bs-custom-class="coming-soon-jael-tooltip"
+          title="Only available on mobile. Coming soon on App stores">Join the
+          Network</button>
         <a href="#partnerwithus"><button type="button" class="partner-btn bg-white">Partner with Us</button></a>
       </div>
     </section>
@@ -98,11 +104,27 @@
   <!-- Slider Starter -->
   <section class="jaelcarouselwrapper mt-3">
     <div class="left__content d-flex flex-column justify-content-center" id="partnerwithus">
-      <h2 class="titlecaption mb-4 animate__animated animate__fadeInLeft animate__slow" style="max-width: 500px;">
-        Strengthening the <span class="red_emph">quality</span>
-        of automotive and locomotive
-        <span class="blue_emph">service</span> provider's delivery
-      </h2>
+
+      <!-- Begin Carousel -->
+      <div class="jael-slick-carousel">
+        <div>
+          <h2 class="titlecaption animate__animated animate__fadeInLeft animate__slow" style="max-width: 500px;">
+            Strengthening the <span class="red_emph">quality</span>
+            of automotive and locomotive
+            <span class="blue_emph">service</span> provider's delivery
+          </h2>
+
+        </div>
+
+        <div>
+          <h2 class="titlecaption animate__animated animate__fadeInDown animate__slow" style="max-width: 500px;">
+            Providing<span class="red_emph"> technical & infrastructure support</span>
+            for automotive professionals to
+            <span class="blue_emph">thrive</span>
+          </h2>
+        </div>
+      </div>
+      <!-- End Carousel -->
 
       <small class="text-muted" style="max-width: 500px;">OUR API Solution connects your business to our vast network
         of certified and trained technicians and mechanics across
@@ -110,9 +132,9 @@
 
       <form id="partner-with-jael-form"
         class="becomepartner-callto-action mt-5 wow animate__animated animate__bounceIn">
-        <input class="text-muted mb-4" name="email" type="email" placeholder="Email address" required /> <button type="submit"
-          class="text-white">Partner</button>
-          <p class="text-success d-none" id="partner-success-message">Thank you will we be in touch!</p>
+        <input class="text-muted mb-4" name="email" type="email" placeholder="Email address" required /> <button
+          type="submit" class="text-white">Partner</button>
+        <p class="text-success d-none" id="partner-success-message">Thank you will we be in touch!</p>
       </form>
     </div>
 
@@ -123,8 +145,9 @@
   </section>
 
   <section class="carousel-controls px-5">
-    <div class="prev-next-wrapper"><img src="./img/Go-Back.svg" alt="back" />
-      <img src="./img/Go-Front.svg" alt="front" />
+    <div class="prev-next-wrapper">
+      <img src="./img/Go-Back.svg" alt="back" class="next-text-slide-btn" />
+      <img src="./img/Go-Front.svg" alt="front" class="prev-text-slide-btn" />
     </div>
 
     <div class="line-indicators"><img src="./img/lines-indicator.svg" alt="lines indicator"></div>
@@ -227,10 +250,18 @@
         <li>
           <h5>About Us</h5>
         </li>
-        <li>For Technicians</li>
-        <li>For Businesses</li>
-        <li>Privacy Policy</li>
-        <li>Support</li>
+        <a href="fortechnicians.html">
+          <li>For Technicians</li>
+        </a>
+        <a href="#partnerwithus">
+          <li>For Businesses</li>
+        </a>
+        <a href="#">
+          <li>Privacy Policy</li>
+        </a>
+        <a href="#">
+          <li>Support</li>
+        </a>
       </ul>
     </div>
 
@@ -256,7 +287,10 @@
     </div>
   </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
 <script>

@@ -5,7 +5,7 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 2000,
     arrows: false,
   });
 
@@ -16,7 +16,12 @@ $(document).ready(function () {
   $(".prev-text-slide-btn").click(function () {
     $(".jael-slick-carousel").slick("slickPrev");
   });
-  
-  
-  
+
+  // Enable Toolips everywhere
+  var tooltipTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  );
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
 });

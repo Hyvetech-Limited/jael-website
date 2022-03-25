@@ -291,7 +291,7 @@ video {
 }
 
 .get-jaelapp-section {
-  padding: 6em 0 6em 8em;
+  padding: 6em 0 6em 15em;
 
   background: url('../img/tyre 1.png') no-repeat center top, url('../img/gear-print.png') no-repeat -2em -13em;
   background-color: #098ece ;
@@ -324,6 +324,7 @@ video {
 .jael-footer ul li{
   margin: 15px;
   margin-bottom: 0;
+  color: white;
 }
 
 
@@ -334,8 +335,16 @@ video {
   border-radius: 12px;
   max-width: 160px;
   padding: 5px;
+  outline: none;
+  border: none;
 }
 /* 
 #partner-success-message {
   visibility: hidden;
 } */
+
+.coming-soon-jael-tooltip {
+  padding: 20px;
+  /* background: #098ece; */
+  /* color: white; */
+}
