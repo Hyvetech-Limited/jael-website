@@ -173,13 +173,12 @@ ul {
   background: #f1f3f5 url("../img/partners/tire printtt.png") no-repeat fixed top right;
 }
 
-.transforming-section .partners-logo:not(.transforming-section .partners-logo:last-of-type) {
-  margin-right: 70px;
+/* .transforming-section .partners-logo:not(.transforming-section .partners-logo:last-of-type) {
+  margin-right: 5spx;
 }
 
 .transforming-section .partners-logo::after {
-  /* height: 60px; */
-}
+} */
 
 .transforming-section .motot-meks-logo::after {
   content: url('../img/partners/Motormechs-grey.png');
