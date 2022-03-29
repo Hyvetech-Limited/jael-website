@@ -59,6 +59,13 @@ ul {
   overflow: hidden;
 }
 
+@media (max-width: 576px) {
+  .jaelcarouselwrapper .left__content {
+    padding-left: 25px;
+  }
+  
+}
+
 .jaelcarouselwrapper .left__content .becomepartner-callto-action input {
   padding: 8px 20px;
   background: #ffffff;
