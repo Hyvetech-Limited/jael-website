@@ -12,12 +12,8 @@ ul {
   list-style: none;
 }
 
-.slick-slider {
-	display: table !important;
-	table-layout: fixed !important;
-	width: 100% !important;
-}
-/*  */
+/* Safari fix */
+div.slick-slider { width: 1px; min-width: 100%; *width: 100%; }
 
 .first-navigation ul a {
   color: rgb(37, 37, 37);

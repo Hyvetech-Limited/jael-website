@@ -7,15 +7,6 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
-    responsive: [
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
   });
 
   $(".next-text-slide-btn").click(function () {
