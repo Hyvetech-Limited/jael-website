@@ -42,8 +42,14 @@ ul {
 }
 
 .jaelcarouselwrapper {
-  display: flex;
-  height: 600px;
+  max-height: 600px;
+}
+
+@media (max-width: 576px) {
+  .jaelcarouselwrapper {
+    max-height: 900px;
+  }
+  
 }
 
 .jaelcarouselwrapper .left__content {
@@ -66,6 +72,12 @@ ul {
   border-radius: 0 10px 10px 0;
   border: none;
   outline: none;
+}
+
+@media (max-width: 576px) {
+  .left__content {
+    margin-bottom: 30px;
+  }
 }
 
 .jaelcarouselwrapper .left__content .titlecaption .red_emph {
@@ -151,9 +163,15 @@ ul {
   background: url('../img/footer-tireprint.png') no-repeat bottom left, url('../img/gear-print.png') no-repeat 30em 0em;
   background-color: #098ece ;
   padding: 5em 1.5em 0 4em;
-  
 }
 
+@media (max-width: 567px) {
+  .whocanjoin-section .whocanjoincontent {
+
+    padding: 1em 1.5em;
+  }
+  
+}
 .whocanjoin-section .outline-text {
   max-width: 300px;
 }
@@ -313,6 +331,13 @@ video {
   position: relative;
 }
 
+@media (max-width: 576px) {
+  .get-jaelapp-section {
+    padding: 4em 1.4em;
+  }
+  
+}
+
 /* .get-jaelapp-section small {
  max-width: 100px;
 } */
@@ -326,6 +351,12 @@ video {
   top: -90px;
   right: 12em;
 }
+
+ @media (max-width: 576px) {
+  .mobile-phone-view {
+    display: none;
+  }
+ }
 
 .jael-footer {
   margin-top: 100px;
@@ -367,3 +398,4 @@ video {
   /* background: #098ece; */
   /* color: white; */
 }
+/* 
