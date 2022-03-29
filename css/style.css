@@ -12,6 +12,13 @@ ul {
   list-style: none;
 }
 
+.slick-slider {
+	display: table !important;
+	table-layout: fixed !important;
+	width: 100% !important;
+}
+/*  */
+
 .first-navigation ul a {
   color: rgb(37, 37, 37);
   /* padding-bottom: 10px; */
