@@ -12,9 +12,6 @@ ul {
   list-style: none;
 }
 
-/* Safari fix */
-div.slick-slider { width: 1px; min-width: 100%; *width: 100%; }
-
 .first-navigation ul a {
   color: rgb(37, 37, 37);
   /* padding-bottom: 10px; */
@@ -446,3 +443,7 @@ video {
 .mobile-navigation-closed {
   left: -500px;
 }
+
+
+/* Safari fix */
+div.slick-slider { width: 1px; min-width: 100%; *width: 100%; }
