@@ -181,6 +181,10 @@ ul {
   width: 60px;
 }
 
+.hamburgermobile {
+  cursor: pointer;
+}
+
 .whocanjoin-section .whocanjoincontent {
   background: url("../img/footer-tireprint.png") no-repeat bottom left,
     url("../img/gear-print.png") no-repeat 30em 0em;
@@ -419,7 +423,7 @@ video {
 }
 
 .mobile-nav-list li {
-  margin: 4em 0;
+  margin: 3em 0;
   font-size: 18px;
 }
 
@@ -430,4 +434,12 @@ video {
 
 .mobile-nav-wrapper {
   padding-left: 1.5em;
+}
+
+.mobile-navigation {
+  transition: all 1s;
+}
+
+.mobile-navigation-closed {
+  left: -500px;
 }

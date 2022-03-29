@@ -24,4 +24,15 @@ $(document).ready(function () {
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl);
   });
+
+  $(".hamburgermobile").click(function () {
+    $(".mobile-navigation").toggleClass("mobile-navigation-closed");
+
+    var srcName =
+      $(".hamburgermobile").attr("src") === "img/hamburger_menu.svg"
+        ? "img/Close.svg"
+        : "img/hamburger_menu.svg";
+
+    $(".hamburgermobile").attr("src", srcName);
+  });
 });
