@@ -54,6 +54,10 @@ ul {
   .top-cta-btns-wrapper .join-thenetwork-btn {
     margin-right: 0;
   }
+
+  .get-jaelapp-section img:nth-of-type(2) {
+    margin-top: 20px;
+  }
 }
 
 .top-cta-btns-wrapper .partner-btn {
@@ -217,6 +221,10 @@ ul {
     top right;
 }
 
+@media (max-width: 576px) {
+  .transforming-section {
+    padding: 50px 0 0;
+}
 /* .transforming-section .partners-logo:not(.transforming-section .partners-logo:last-of-type) {
   margin-right: 5spx;
 }
@@ -330,6 +338,13 @@ ul {
   height: 300px;
 }
 
+@media (max-width: 576px) {
+  .howitworks-section img {
+    height: auto;
+    width: 100%;
+  }
+}
+
 .certifications-section {
   padding: 100px 0 0;
   /* background: #FBFBFB; */
@@ -431,7 +446,6 @@ video {
   color: black;
 }
 
-
 .mobile-nav-wrapper {
   padding-left: 1.5em;
 }
@@ -444,6 +458,9 @@ video {
   left: -500px;
 }
 
-
 /* Safari fix */
-div.slick-slider { width: 1px; min-width: 100%; *width: 100%; }
+div.slick-slider {
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+}
