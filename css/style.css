@@ -224,6 +224,7 @@ ul {
 @media (max-width: 576px) {
   .transforming-section {
     padding: 50px 0 0;
+  }
 }
 /* .transforming-section .partners-logo:not(.transforming-section .partners-logo:last-of-type) {
   margin-right: 5spx;
