@@ -88,7 +88,7 @@ ul {
 }
 
 .jaelcarouselwrapper .left__content .becomepartner-callto-action input {
-  padding: 8px 20px;
+  padding: 8px;
   background: #ffffff;
   border: 1px solid #a5a5a5;
   border-radius: 10px 0 0 10px;
@@ -100,6 +100,16 @@ ul {
   border-radius: 0 10px 10px 0;
   border: none;
   outline: none;
+}
+
+@media (max-width: 576px) {
+  .jaelcarouselwrapper .left__content .becomepartner-callto-action input {
+    border-radius: 10px;
+  }
+
+  .jaelcarouselwrapper .left__content .becomepartner-callto-action button {
+    border-radius: 10px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -347,9 +357,15 @@ ul {
 }
 
 .certifications-section {
-  padding: 100px 0 0;
+  padding: 100px 0;
   /* background: #FBFBFB; */
   /* background: #f1f3f5 url("img/partners/tire printtt.png") no-repeat center; */
+}
+
+@media (max-width: 576px) {
+  .certifications-section {
+    padding-bottom: 0px;
+  }
 }
 
 .certifications-section img {
@@ -417,6 +433,16 @@ video {
 
 .jael-footer .copyright-text-footer svg {
   width: 15px;
+}
+
+@media (max-width: 576px) {
+  .jael-footer {
+    font-size: 14px;
+  }
+
+  .jael-footer .copyright-text-footer {
+    font-size: 12px;
+  }
 }
 
 .call-toaction-join-anchor {
